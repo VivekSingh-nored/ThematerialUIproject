@@ -11,7 +11,7 @@ import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
+// import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
@@ -34,7 +34,7 @@ export default function Noredlanding(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NoRed"
+        brand="noRed"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -52,16 +52,6 @@ export default function Noredlanding(props) {
                 Why should one click buttons in a manner specified when a machine can easily sequence your activities and execute it while you smoke.
               </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
             </GridItem>
           </GridContainer>
         </div>
